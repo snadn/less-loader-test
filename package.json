@@ -1,0 +1,19 @@
+{
+  "name": "less-loader-test",
+  "version": "1.0.0",
+  "description": "demo for https://github.com/webpack-contrib/less-loader/issues/184",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test1": "webpack --config webpack.config.1.js",
+    "test2": "webpack --config webpack.config.2.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.28.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.3",
+    "webpack": "^2.3.2"
+  }
+}
